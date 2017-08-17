@@ -1,9 +1,26 @@
+.header {
+  border: 4px solid #022e3d;
+  border-left: 10px solid #022e3d;
+  padding: 5px 10px;
+  margin-left: -20px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.bright-link {
+  color: #0798C9;
+}
+
+/* All of the below is copied from my main site brianemory.com */
+/* Although most will not be used, keeping it here for uniformity */
+
 /* Phoenix flash messages */
 .alert:empty { display: none; }
 
 body {
   width: 100%;
   height: 100%;
+  font-size: 16px !important;
   font-family: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue",
