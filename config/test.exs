@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :hirebrian, Hirebrian.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "brianemory",
+  password: "",
   database: "hirebrian_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
