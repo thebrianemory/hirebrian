@@ -42,21 +42,19 @@
       </div>
       <div>
         <h3 class="header">Skills</h3>
-        <p>
-          <strong>Development and Design</strong><br />
-          My current focus is Elixir and Phoenix. In my past development life, I have worked with Ruby on Rails, JavaScript, Sinatra, and Angular. I have interacted with APIs, built my own backend APIs to interact with my JavaScript or Angular frontend, used TDD for development, and built Ruby Gems and an Elixir package.<br /><br />
-          My design game as far as aesthetics is not strong. I can tell you when I think something doesn't look good but probably couldn't suggest something better. I can hack together something decent with things like Bootstrap and try to pick up design tips from those who are good at design. I don't believe design is just about the aesthetics of an app, however. The design of your code so it is easy to read and understand matter as well. I am a bit better at that.
-        </p>
-        <p>
-          <strong>Sharing What I Know</strong><br />
-          I blog regularly on things I have learned, challenges I have overcome, or about projects I have built. I feel it's important to do that as who knows who may find value in what you know (even if you don't think you know a lot). I created a series of blog posts on creating an Elixir Phoenix app.
-        </p>
-        <p>
-          <strong>SOMETHING</strong><br />
-          But what?
-        </p>
-      </div>
       <div>
+      <p>
+        My current focus is Elixir and Phoenix. In my past development life, I have worked with Ruby on Rails, JavaScript, Sinatra, and Angular. I have interacted with APIs, built my own backend APIs to interact with my JavaScript or Angular frontend, used TDD for development, and built Ruby Gems and an Elixir package. Here are some arbritrary ratings to showcase my skills:
+      </p>
+      <p>
+        <strong>Elixir and Phoenix</strong>
+        <%= img_tag(static_path(@conn, "/images/pizza-color.svg"), height: "32") %>
+        <%= img_tag(static_path(@conn, "/images/pizza-color.svg"), height: "32") %>
+        <%= img_tag(static_path(@conn, "/images/pizza-color.svg"), height: "32") %>
+        <%= img_tag(static_path(@conn, "/images/pizza-bw.svg"), height: "32") %>
+        <%= img_tag(static_path(@conn, "/images/pizza-bw.svg"), height: "32") %>
+      </p>
+      </div>
         <h3 class="header">What I've Worked On</h3>
         <p>
           <strong>GetMedium</strong><br />
