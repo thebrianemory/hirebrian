@@ -1,7 +1,7 @@
 run.config:
   engine: elixir
-  extra_packages:
-    - git
+  engine.config:
+    runtime: elixir-1.7.0
   dev_packages:
     - nodejs
     - inotify-tools
@@ -25,6 +25,4 @@ data.db:
 web.main:
   start: node-start mix phx.server
   writable_dirs:
-    - priv
-    - priv/files
-    - _build/prod/lib/tbex/priv
+    - _build/prod/lib/tzdata/priv

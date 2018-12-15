@@ -1,76 +1,35 @@
-<div class="container">
-  <div class="col-sm-8 col-sm-offset-2">
-      <div>
-        <h3 class="header">Brian Emory</h3>
-        <div class="row">
-          <div class="col-sm-2"><strong>Website</strong></div>
-          <div class="col-sm-10">
-            <%= link "https://www.brianemory.com", to: "https://www.brianemory.com", target: "_blank", class: "bright-link" %>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-2">
-            <strong>Phone</strong></div>
-          <div class="col-sm-10">
-            818-629-5335
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-2"><strong>Email</strong></div>
-          <div class="col-sm-10">
-            <%= link "the@brianemory.com", to: "mailto:the@brianemory.com", class: "bright-link" %>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-2"><strong>Blog</strong></div>
-          <div class="col-sm-10">
-            <%= link "https://medium.brianemory.com", to: "https://medium.brianemory.com", target: "_blank", class: "bright-link" %>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-2"><strong>GitHub</strong></div>
-          <div class="col-sm-10">
-            <%= link "https://github.com/thebrianemory", to: "https://github.com/thebrianemory", target: "_blank", class: "bright-link" %>
-          </div>
-        </div>
-      </div>
-      <div>
-        <h3 class="header">Career Objective</h3>
-        <p>
-          To work as an Elixir developer and write great software in a no bullshit environment.
-        </p>
-      </div>
-      <div>
-        <h3 class="header">Skills</h3>
-      <div>
-      <p>
-        My current focus is Elixir and Phoenix. In my past development life, I have worked with Ruby on Rails, JavaScript, Sinatra, and Angular. I have interacted with APIs, built my own backend APIs to interact with my JavaScript or Angular frontend, used TDD for development, and built Ruby Gems and an Elixir package. Here are some arbritrary ratings to showcase my skills:
-      </p>
-      <p>
-        <strong>Elixir and Phoenix</strong>
-        <%= img_tag(static_path(@conn, "/images/pizza-color.svg"), height: "32") %>
-        <%= img_tag(static_path(@conn, "/images/pizza-color.svg"), height: "32") %>
-        <%= img_tag(static_path(@conn, "/images/pizza-color.svg"), height: "32") %>
-        <%= img_tag(static_path(@conn, "/images/pizza-bw.svg"), height: "32") %>
-        <%= img_tag(static_path(@conn, "/images/pizza-bw.svg"), height: "32") %>
-      </p>
-      </div>
-        <h3 class="header">What I've Worked On</h3>
-        <p>
-          <strong>GetMedium</strong><br />
-          GetMedium is an Elixir package to solve the problem of Medium's API not having a way to get your blog posts. Medium's API currently only allows posting to your blog which is a problem for those of us who want to display all or part of our recent posts on our personal site. GetMedium returns a truncated version of your Medium blog posts.
-        </p>
-        <p>
-          <strong>Vidshare</strong><br />
-          Vidshare is an Elixir/Phoenix port of my Rails app Flatcasts. I wanted to build something using Elixir/Phoenix so updating Flatcasts seemed like a great choice. Signed in users can add videos using just the URL from YouTube or Vimeo. The app talks with the API, grabs the relevant video information, adds it to the database, and creates an embedded video on the show page. It is the basis for my Elixir tutorial on Medium to create an Elixir/Phoenix app called Catcasts.
-        </p>
-        <p>
-          <strong>Corneal</strong><br />
-          Corneal is an open source Sinatra app generator with Rails-like simplicity. I wanted something as easy as rails new app-name for a project I was working on. Closest thing I found was a gem called Hazel. It was suggested to me to make my own. I forked Hazel and like that, Corneal was born. It was featured in Ruby Weekly #353.
-        </p>
-      </div>
-      <div>
-        <h3 class="header">SOMETHING</h3>
-      </div>
-  </div>
-</div>
+<section class="phx-hero">
+  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
+  <p>A productive web framework that<br/>does not compromise speed and maintainability.</p>
+</section>
+
+<section class="row">
+  <article class="column">
+    <h2>Resources</h2>
+    <ul>
+      <li>
+        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
+      </li>
+      <li>
+        <a href="https://github.com/phoenixframework/phoenix">Source</a>
+      </li>
+      <li>
+        <a href="https://github.com/phoenixframework/phoenix/blob/v1.4/CHANGELOG.md">v1.4 Changelog</a>
+      </li>
+    </ul>
+  </article>
+  <article class="column">
+    <h2>Help</h2>
+    <ul>
+      <li>
+        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
+      </li>
+      <li>
+        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
+      </li>
+    </ul>
+  </article>
+</section>

@@ -20,26 +20,28 @@ defmodule HirebrianWeb do
   def controller do
     quote do
       use Phoenix.Controller, namespace: HirebrianWeb
+
       import Plug.Conn
-      import HirebrianWeb.Router.Helpers
       import HirebrianWeb.Gettext
+      alias HirebrianWeb.Router.Helpers, as: Routes
     end
   end
 
   def view do
     quote do
-      use Phoenix.View, root: "lib/hirebrian_web/templates",
-                        namespace: HirebrianWeb
+      use Phoenix.View,
+        root: "lib/hirebrian_web/templates",
+        namespace: HirebrianWeb
 
       # Import convenience functions from controllers
-      import Phoenix.Controller, only: [get_flash: 2, view_module: 1]
+      import Phoenix.Controller, only: [get_flash: 1, get_flash: 2, view_module: 1]
 
       # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
-      import HirebrianWeb.Router.Helpers
       import HirebrianWeb.ErrorHelpers
       import HirebrianWeb.Gettext
+      alias HirebrianWeb.Router.Helpers, as: Routes
     end
   end
 
