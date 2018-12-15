@@ -1,0 +1,30 @@
+run.config:
+  engine: elixir
+  extra_packages:
+    - git
+  dev_packages:
+    - nodejs
+    - inotify-tools
+  cache_dirs:
+    - node_modules
+  extra_path_dirs:
+    - node_modules/.bin
+  fs_watch: true
+
+deploy.config:
+  extra_steps:
+    - mix phx.digest
+  before_live:
+    web.main:
+      - mix ecto.create --quiet
+      - mix ecto.migrate
+
+data.db:
+  image: nanobox/postgresql
+
+web.main:
+  start: node-start mix phx.server
+  writable_dirs:
+    - priv
+    - priv/files
+    - _build/prod/lib/tbex/priv
