@@ -1,0 +1,120 @@
+<div class="overflow-y-scroll">
+  <section class="text-center mt-12">
+    <div class="container mx-auto">
+      <div class="xs:w-full sm:w-4/5 lg:w-3/4 mr-auto ml-auto">
+        <div class="block text-center overflow-hidden whitespace-no-wrap hr-section mb-2">
+
+          <div class="xs:text-3xl sm:text-4-2/3xl font-bold uppercase">
+           <span class="xs:text-4xl sm:text-5xl">H</span>ire <span class="xs:text-4xl sm:text-5xl">B</span>rian <span class="xs:text-4xl sm:text-5xl">T</span>oday!
+          </div>
+
+          <div class="xs:text-xl sm:text-3xl font-bold">
+            Elixir Phoenix Developer
+          </div>
+
+          <div class="mt-2">
+            <a href="https://github.com/thebrianemory" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">github.com/thebrianemory</a> <br class="sm:hidden"><span class="xs:hidden sm:visible xs:block sm:inline font-semibold">|</span> <a href="https://medium.brianemory.com" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">medium.brianemory.com</a>
+          </div>
+           <div class="mt-2">
+            <a href="https://www.linkedin.com/in/thebrianemory/" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">linkedin.com/in/thebrianemory</a> <br class="sm:hidden"><span class="xs:hidden sm:visible xs:block sm:inline font-semibold">|</span> <a href="https://twitter.com/thebrianemory" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">twitter.com/thebrianemory</a>
+          </div>
+
+          <div class="py-2 border-b-8 border-my-blue"></div>
+          <div class="xs:text-xl sm:text-2xl font-bold uppercase mt-2">
+            <span class="xs:text-2xl sm:text-3xl">T</span>echnical <span class="xs:text-2xl sm:text-3xl">E</span>xperience
+            <div class="py-px border-b-2 border-my-blue"></div>
+          </div>
+
+          <div class="mt-4 text-left">
+            <p class="font-semibold text-lg">Top Class Actions</p>
+            <p><a href="https://tcaleads.com" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">tcaleads.com</a></p>
+            <ul class="pt-1 whitespace-normal">
+              <li>
+                Built admin dashboard and customer portal with Elixir and Phoenix
+              </li>
+              <li>
+                Enables TCA staff to manage campaigns without having to use multiple spreadsheets
+              </li>
+              <li>
+                Automated tasks such as the emailing of leads to clients
+              </li>
+              <li>
+                Interacted with GravityForms API to generate CSVs
+              </li>
+              <li>
+                Allows clients to log in and view their campaigns
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-4 text-left">
+            <p class="font-bold text-lg whitespace-normal">Catcasts – Tutorial for creating an Elixir Phoenix app</p>
+            <p><a href="https://github.com/thebrianemory/catcasts-tutorial" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue whitespace-normal" target="_blank">github.com/thebrianemory/catcasts-tutorial</a></p>
+            <p><a href="https://medium.brianemory.com/elixir-phoenix-creating-an-app-part-1-the-setup-6626264be03" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue whitespace-normal" target="_blank">medium.brianemory.com/elixir-phoenix-creating-an-app-part-1-the-setup-6626264be03</a></p>
+            <ul class="pt-1 whitespace-normal">
+              <li>
+                A step by step guide to creating an Elixir Phoenix app
+              </li>
+              <li>
+                Walks the reader through building a tested app
+              </li>
+              <li>
+                Includes the installation of a CSS framework, using Google OAuth, and interacting with
+the YouTube API
+              </li>
+              <li>
+                Originally used Phoenix 1.2.1, it was updated for Phoenix 1.3, and recently updated
+again for Phoenix 1.4
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-4 text-left">
+            <p class="font-semibold text-lg whitespace-normal">GetMedium – Elixir package for getting your Medium posts on your website</p>
+            <p><a href="https://github.com/thebrianemory/get-medium" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">github.com/thebrianemory/get-medium</a></p>
+            <ul class="pt-1 whitespace-normal">
+              <li>
+                Solved problem of Medium API not allowing get requests
+              </li>
+              <li>
+                Interfaces with your Medium feed to grab all of your blog posts
+              </li>
+              <li>
+                Returns a list of your posts with all of its pertinent information
+              </li>
+              <li>
+                Published to Hex.pm
+              </li>
+              <li>
+                You can see it in action at <a href="https://www.brianemory.com/#blog" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">https://www.brianemory.com/#blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-4 text-left">
+            <p class="font-semibold text-lg whitespace-normal">Corneal – Open source Sinatra app generator</p>
+            <p><a href="https://github.com/thebrianemory/corneal" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">github.com/thebrianemory/corneal</a></p>
+            <ul class="pt-1 whitespace-normal">
+              <li>
+                Generates a basic Sinatra app structure like <code class="bg-grey">rails new app-name</code> does
+              </li>
+              <li>
+                Designed to assist Flatiron School students in starting their Sinatra projects
+              </li>
+              <li>
+                Forked and customized Hazel to create a Rails-like app structure
+              </li>
+              <li>
+                Uploaded to RubyGems to allow local installation
+              </li>
+              <li>
+                Featured in Ruby Weekly #353
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
