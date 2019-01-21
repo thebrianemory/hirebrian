@@ -8,15 +8,21 @@
            <span class="xs:text-4xl sm:text-5xl">H</span>ire <span class="xs:text-4xl sm:text-5xl">B</span>rian <span class="xs:text-4xl sm:text-5xl">T</span>oday!
           </div>
 
-          <div class="xs:text-xl sm:text-3xl font-bold">
-            Elixir Phoenix Developer
-          </div>
-
           <div class="mt-2">
             <a href="https://github.com/thebrianemory" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">github.com/thebrianemory</a> <br class="sm:hidden"><span class="xs:hidden sm:visible xs:block sm:inline font-semibold">|</span> <a href="https://medium.brianemory.com" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">medium.brianemory.com</a>
           </div>
            <div class="mt-2">
             <a href="https://www.linkedin.com/in/thebrianemory/" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">linkedin.com/in/thebrianemory</a> <br class="sm:hidden"><span class="xs:hidden sm:visible xs:block sm:inline font-semibold">|</span> <a href="https://twitter.com/thebrianemory" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">twitter.com/thebrianemory</a>
+          </div>
+
+          <div class="py-2 border-b-8 border-my-blue"></div>
+          <div class="xs:text-xl sm:text-2xl font-bold uppercase mt-2">
+            <span class="xs:text-2xl sm:text-3xl">S</span>ummary
+            <div class="py-px border-b-2 border-my-blue"></div>
+          </div>
+
+          <div class="mt-4 text-left text-lg whitespace-normal">
+            <p>Elixir Phoenix developer who enjoys helping others through blog posts and tutorials, thinking through hard tasks, learning new things, and writing code. Increased efficiency of Top Class Actions staff by automating tasks and eliminating need for spreadsheets. Passionate about harnessing the power Elixir and Phoenix offers.</p>
           </div>
 
           <div class="py-2 border-b-8 border-my-blue"></div>
