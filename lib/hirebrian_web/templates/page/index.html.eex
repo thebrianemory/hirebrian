@@ -2,15 +2,21 @@
   <section class="text-center my-12">
     <div class="container mx-auto">
       <div class="xs:w-full sm:w-4/5 lg:w-3/4 mr-auto ml-auto">
+
         <div class="block text-center overflow-hidden whitespace-no-wrap hr-section mb-2">
 
           <div class="xs:text-3xl sm:text-4-2/3xl font-bold uppercase">
-           <span class="xs:text-4xl sm:text-5xl">H</span>ire <span class="xs:text-4xl sm:text-5xl">B</span>rian <span class="xs:text-4xl sm:text-5xl">T</span>oday!
+            <span class="xs:text-4xl sm:text-5xl">H</span>ire <span class="xs:text-4xl sm:text-5xl">B</span>rian <span class="xs:text-4xl sm:text-5xl">T</span>oday!
+          </div>
+
+          <div class="xs:text-sm sm:text-sm font-bold uppercase p-px">
+            <a href="/pdfs/Brian_Emory_Resume_Elixir_Phoenix_Developer.pdf" class="text-my-blue no-underline bg-my-gray hover:bg-grey-light text-my-blue border border-my-blue pt-1 px-2 rounded shadow-md">Download resume</a>
           </div>
 
           <div class="mt-2">
             <a href="https://github.com/thebrianemory" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">github.com/thebrianemory</a> <br class="sm:hidden"><span class="xs:hidden sm:visible xs:block sm:inline font-semibold">|</span> <a href="https://medium.brianemory.com" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">medium.brianemory.com</a>
           </div>
+
            <div class="mt-2">
             <a href="https://www.linkedin.com/in/thebrianemory/" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">linkedin.com/in/thebrianemory</a> <br class="sm:hidden"><span class="xs:hidden sm:visible xs:block sm:inline font-semibold">|</span> <a href="https://twitter.com/thebrianemory" class="no-underline text-blue-dark font-semibold hover:underline hover:text-blue" target="_blank">twitter.com/thebrianemory</a>
           </div>
