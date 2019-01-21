@@ -13,7 +13,7 @@
     <meta name="twitter:creator" content="@thebrianemory">
     <meta name="twitter:title" content="Hire Brian Today!">
     <meta name="twitter:description" content="I am an Elixir Phoenix developer looking for my next role with a great company.">
-    <meta name="twitter:image" content="https://www.hirebrian.today/images/hire_brian_today.png>
+    <meta name="twitter:image" content="https://www.hirebrian.today/images/hire_brian_today.png">
     <title>Hire Brian Today!</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
